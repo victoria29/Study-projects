@@ -1,0 +1,246 @@
+html, body{
+    margin: 0;
+    font-family: 'Helvetica Neue',HelveticaNeue,Arial,sans-serif ;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)),url("../img/netflix-background.jpg");
+    height: 100vh;
+}
+nav img{
+    width: 167px;
+    height: 45px;
+    vertical-align: middle;
+}
+nav a.logo{
+    display: inline-block;
+    line-height: 90px;
+    margin-left: 3%;
+}
+header nav{
+    height: 90px;
+}
+nav .signin{
+    color: #fff;
+    float: right;
+    background-color: #e50914;
+    line-height: normal;
+    margin-top: 18px;
+    margin-right: 3%;
+    padding: 7px 17px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.pitch{
+    margin: 0 3%;
+    position: absolute;
+    top: 35%;
+    font-size: 1.8vw;
+}
+.pitch_title{
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+}
+.pitch_subtitle{
+    margin: 0 0 .5em;
+}
+.btn{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: .5em .5em .5em 0;
+    padding: 12px 2em;
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: Arial,sans-serif;
+    border-radius: 2px;
+    user-select: none;
+    text-align: center;
+    border: 0;
+}
+nav .signin:hover, .btn:hover{
+    background-color: #f40612;
+}
+#features > nav {
+    padding-top: 35px;
+    background-color: #141414;
+    border-bottom: 2px solid #3d3d3d;
+}
+#features > nav div {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777;
+    height: 125px;
+    line-height: 20px;
+}
+#features > nav div:hover {
+    color: white;
+}
+#features > nav div img {
+    height: 49px;
+}
+#features > nav div h2 {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+#features img {
+    max-width: 100%;
+}
+#features > nav {
+    padding-top: 35px;
+    background-color: #141414;
+    border-bottom: 2px solid #3d3d3d;
+}
+#features > nav div {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777;
+    height: 125px;
+    line-height: 20px;
+}
+#features > nav div:hover {
+    color: white;
+    cursor: pointer;
+}
+#features > nav div :hover img {
+    opacity: 1;
+}
+#features > nav div img {
+    height: 49px;
+    opacity: 0.5;
+}
+#features > nav div h2 {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+.columns {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 0 auto;
+}
+.tab-content {
+    padding: 3rem 0;
+    background: #000;
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+.tab-content img{
+    width: 100%;
+}
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+.tab-border {
+    border-bottom: 4px solid red;
+}
+.show {
+    display: block !important;
+}
+#tab-1-content .tab-1-content-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+}
+#tab-1-content .tab-1-content-inner  p{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 60px 0 20px;;
+}
+#tab-2-content .tab-2-content-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.text-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+#tab-2-content .tab-2-content-bottom {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#tab-3-content .tab-3-text-center {
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table thead th {
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+.table tbody tr td {
+    color: #999;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+}
+.table tbody tr td:first-child {
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+    background: #222;
+}
+.footer {
+    max-width: 70%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.footer,
+.footer a {
+    color: #999;
+    font-size: 0.8rem;
+}
+.footer p {
+    margin-bottom: 1.5rem;
+}
+.footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.footer li {
+    line-height: 1.9;
+}
